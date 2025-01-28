@@ -140,3 +140,40 @@ MainView
   padding-top: 33px;
   letter-spacing: 0.06em;
 }
+/*--------------------------------
+Intro
+---------------------------------*/
+.intro {
+  margin-top: -40px;
+}
+.intro__title {
+  font-size: 90px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 1;
+  margin-left: -40px;
+  color: var(--main-color);
+  text-align: center;
+  letter-spacing: -0.01em;
+}
+.intro__title span {
+  margin-left: 25px;
+}
+.intro__subtitle {
+  margin-top: -1px;
+  margin-left: -5px;
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 0.07em;
+}
+.intro__subtitle span {
+  color: var(--main-color);
+}
+.intro__text {
+  margin-top: 40px;
+  margin-left: 19px;
+  font-size: 23px;
+  line-height: 1.85;
+  letter-spacing: 0.01em;
+}
