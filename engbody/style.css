@@ -147,33 +147,54 @@ Intro
   margin-top: -40px;
 }
 .intro__title {
-  font-size: 90px;
+  font-size: 98px;
   font-style: italic;
   font-weight: 700;
   line-height: 1;
-  margin-left: -40px;
+  margin-left: 20px;
   color: var(--main-color);
   text-align: center;
   letter-spacing: -0.01em;
 }
 .intro__title span {
-  margin-left: 25px;
+  margin-left: 31px;
 }
 .intro__subtitle {
-  margin-top: -1px;
-  margin-left: -5px;
+  margin-top: 3px;
+  margin-left: 57px;
   font-size: 26px;
   font-weight: bold;
   text-align: center;
-  letter-spacing: 0.07em;
+  letter-spacing: 0.17em;
 }
 .intro__subtitle span {
   color: var(--main-color);
 }
 .intro__text {
-  margin-top: 40px;
-  margin-left: 19px;
-  font-size: 23px;
-  line-height: 1.85;
-  letter-spacing: 0.01em;
+  margin-top: 43px;
+  margin-left: 32px;
+  font-size: 27px;
+  line-height: 1.75;
+  letter-spacing: -0.05em;
+}
+/*--------------------------------
+About
+---------------------------------*/
+.about__train {
+  position: relative;
+  margin-top: 33px;
+}
+.about__train-img {
+  max-width: 800px;
+  width: 650px;
+  height: auto;
+}
+.about__train-box {
+  position: relative;
+  margin-top: -22px;
+  margin-left: 35px;
+  padding: 40px 30px 30px 30px;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  background-color: #fff;
 }
