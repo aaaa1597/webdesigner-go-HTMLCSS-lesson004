@@ -72,11 +72,11 @@ header {
   justify-content: space-between;
   position: fixed;
   z-index: 100;
-  padding: 39px 20px 20px 32px;
+  padding: 55px 20px 20px 44px;
   width: 100%;
 }
 .head__logo-img {
-  width: 155px;
+  width: 220px;
 }
 .head__req--btn {
   width: 170px;
@@ -321,4 +321,18 @@ About
 }
 .trainer__tab--content.show {
   display: block;
+}
+.trainer__tab--personbox {
+  overflow: hidden;
+  padding: 30px 70px 20px;
+  /* border-radius: 12px; */
+}
+.trainer__tab--personbox img {
+  max-width: 85%;
+  margin-top: 29px;
+  margin-left: 46px;
+}
+.trainer__tab--personbox p {
+  background-color: #fff;
+  padding: 40px;
 }
