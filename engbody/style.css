@@ -273,7 +273,9 @@ About
   margin: 0 auto;
   font-size: 20.5px;
 }
-
+/*--------------------------------
+Trainer
+---------------------------------*/
 .trainer {
   margin-top: 12%;
 }
@@ -343,4 +345,71 @@ About
 .trainer__tab--emptyarea {
   height: 110px;
   background-color: var(--main-color);
+}
+/*--------------------------------
+Studio
+---------------------------------*/
+.studio {
+  margin-top: 10.5%;
+  padding: 0 8%;
+}
+.present__studio--title {
+  font-size: 66px;
+  letter-spacing: -0.015em;
+}
+.present__studio--titlekana {
+  padding-top: 10px;
+  font-size: 23px;
+  font-weight: bold;
+  color: var(--main-color);
+  letter-spacing: -0.04em;
+}
+
+.swiper-wrap {
+  position: relative;
+  margin-top: 9%;
+}
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  bottom: -40px;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.swiper-button-prev {
+  top: 46.5%;
+  left: -6%;
+}
+.swiper-button-next {
+  top: 46.5%;
+  left: 94%;
+}
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  font-family: "Material Icons Round";
+  font-size: 37px;
+  color: var(--main-color);
+}
+
+.swiper-button-prev:after {
+  content: "navigate_before";
+}
+
+.swiper-button-next:after {
+  content: "navigate_next";
+}
+.swiper-pagination-bullet-active {
+  background: var(--main-color);
+}
+/*--------------------------------
+Price
+---------------------------------*/
+.price {
+  margin-top: 10.5%;
 }

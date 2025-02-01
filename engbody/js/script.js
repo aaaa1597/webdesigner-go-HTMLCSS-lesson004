@@ -9,4 +9,14 @@ $(function () {
     $('.trainer__tab--content').removeClass('show').eq(index).addClass('show');
   });
 
+  const swiper = new Swiper('.swiper', {
+    loop: true,
+    pagination: {
+      el: '.swiper-pagination',
+    },
+    navigation:{
+      prevEl: '.swiper-button-prev',
+      nextEl: '.swiper-button-next',
+    }
+  });
 });
