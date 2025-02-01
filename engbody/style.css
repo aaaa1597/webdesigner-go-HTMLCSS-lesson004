@@ -321,6 +321,10 @@ About
 .trainer__tab--content.show {
   display: block;
 }
+.trainer__tab--personlist {
+  display: grid;
+  row-gap: 30px;
+}
 .trainer__tab--personbox {
   overflow: hidden;
   border-radius: 12px;
@@ -332,5 +336,11 @@ About
 }
 .trainer__tab--personbox p {
   background-color: #fff;
-  padding: 40px;
+  padding: 36px 30px 36px;
+  font-size: 20px;
+  line-height: 1.72;
+}
+.trainer__tab--emptyarea {
+  height: 110px;
+  background-color: var(--main-color);
 }
