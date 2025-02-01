@@ -275,7 +275,7 @@ About
 }
 
 .trainer {
-  margin-top: 11%;
+  margin-top: 12%;
 }
 .present__trainersandstaffs {
   background-color: var(--main-color);
@@ -295,12 +295,10 @@ About
   letter-spacing: -0.08em;
 }
 .trainer__tabs {
-  padding-left: 8%;
-  padding-right: 8%;
+  padding: 8% 8% 5% 8%;
   display: grid;
   place-content: center;
   place-items: center;
-  padding-top: 48px;
   color: #fff;
   font-weight: bold;
   font-size: 24px;
@@ -318,19 +316,20 @@ About
 }
 .trainer__tab--content {
   display: none;
+  width: 100%;
 }
 .trainer__tab--content.show {
   display: block;
 }
 .trainer__tab--personbox {
   overflow: hidden;
-  padding: 30px 70px 20px;
-  /* border-radius: 12px; */
+  border-radius: 12px;
+  width: 85%;
+  margin: 0 auto;
 }
 .trainer__tab--personbox img {
-  max-width: 85%;
-  margin-top: 29px;
-  margin-left: 46px;
+  width: 86%;
+  margin: 0 auto;
 }
 .trainer__tab--personbox p {
   background-color: #fff;
