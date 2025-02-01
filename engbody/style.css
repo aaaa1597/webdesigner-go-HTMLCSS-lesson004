@@ -324,11 +324,10 @@ About
 .trainer__tab--personbox {
   overflow: hidden;
   border-radius: 12px;
-  width: 85%;
+  width: 84%;
   margin: 0 auto;
 }
 .trainer__tab--personbox img {
-  width: 86%;
   margin: 0 auto;
 }
 .trainer__tab--personbox p {
