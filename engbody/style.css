@@ -413,3 +413,117 @@ Price
 .price {
   margin-top: 10.5%;
 }
+.price_div {
+  background-color: var(--main-color);
+}
+.price_div--title {
+  padding-top: 57px;
+  padding-left: 48px;
+  color: #fff;
+  font-size: 66px;
+  letter-spacing: -0.015em;
+}
+.price_div--title-ja {
+  padding-top: 10px;
+  padding-left: 48px;
+  color: #fff;
+  font-size: 24px;
+  letter-spacing: -0.1em;
+}
+.price_list {
+  position: relative;
+  white-space: nowrap;
+  margin-top: -24px;
+  padding-top: 25px;
+  padding-right: 20px;
+  overflow-x: auto;
+}
+.pricebox {
+  display: inline-block;
+  position: relative;
+  width: 88%;
+  margin-top: 7.5%;
+  margin-left: 5.5%;
+  margin-bottom: 1%;
+  padding: 40px 20px 0;
+  text-align: center;
+  border-radius: 12px;
+  background-color: #fff;
+}
+.pricebox__recog {
+  position: absolute;
+  top: -24px;
+  left: 50%;
+  width: 80%;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1;
+  color: var(--main-color);
+  padding: 10px;
+  transform: translateX(-50%);
+  border: 2px solid var(--main-color);
+  border-radius: 50px;
+  background-color: #fff;
+}
+.pricebox__title {
+  margin-top: 6%;
+  font-size: 41px;
+  font-weight: bold;
+  color: var(--main-color);
+  margin-bottom: 10px;
+  letter-spacing: -0.07em;
+}
+.pricebox__price {
+  margin-top: 2.5%;
+  font-size: 74px;
+  letter-spacing: 0.015em;
+  padding-bottom: 20px;
+}
+.pricebox__price p::first-letter {
+  font-size: 64px;
+}
+.pricebox__admfee {
+  margin-top: -3%;
+  font-size: 26.5px;
+  font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans";
+  letter-spacing: -0.03em;
+  padding-bottom: 30px;
+}
+.pricebox__separator {
+  padding: 30px 0 48px;
+  border-top: 1px solid #ccc;
+}
+.pricebox__separator h4 {
+  margin-top: 5%;
+  margin-bottom: 2%;
+  font-size: 28px;
+  letter-spacing: -0.02em;
+}
+.pricebox__separator p {
+  font-size: 23px;
+  font-weight: bold;
+  letter-spacing: -0.05em;
+}
+.pricebox__emptyarea {
+  height: 35px;
+  background-color: var(--main-color);
+}
+/*--------------------------------
+FAQ
+---------------------------------*/
+.faq {
+  padding-top: 8%;
+  padding-left: 8%;
+  margin-top: 2%;
+}
+.faq__title {
+  font-size: 66px;
+  letter-spacing: -0.015em;
+}
+.faq__titlekana {
+  margin-top: 2%;
+  color: var(--main-color);
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0.125em;
+}
