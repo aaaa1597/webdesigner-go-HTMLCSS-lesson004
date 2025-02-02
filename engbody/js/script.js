@@ -27,4 +27,21 @@ $(function () {
     $(this).next().slideToggle(200);
   });
 
+  /* ページトップBtn表示/非表示 */
+  var $pageTop = $('.page-top');
+  $(window).scroll(function() {
+    if($(this).scrollTop() > 300)
+      $pageTop.fadeIn();
+    else
+      $pageTop.fadeOut();
+  });
+
+  /* ページトップへ戻る */
+  $pageTop.on('click', function() {
+    $('body,html').animate({
+      scrollTop: 0
+    }, 200);
+    return false;
+  });
+
 });
