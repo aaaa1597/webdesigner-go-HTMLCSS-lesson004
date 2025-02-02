@@ -20,4 +20,11 @@ $(function () {
     }
   });
 
+  /* FAQのアコーディオン */
+  $('.faqlist dd').hide();
+  $('.faqlist dt').on('click', function(){
+    $(this).toggleClass('active');
+    $(this).next().slideToggle(200);
+  });
+
 });

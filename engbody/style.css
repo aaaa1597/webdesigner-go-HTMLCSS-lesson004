@@ -3,38 +3,6 @@
 :root {
   --main-color: #eb51c2;
 }
-
-/*--------------------------------
-  デバッグ用
----------------------------------*/
-/* body {
-  border: 1px solid orange;
-}
-
-header {
-  border: 1px solid greenyellow;
-}
-
-main {
-  border: 1px solid magenta;
-}
-
-footer {
-  border: 1px solid blue;
-}
-
-div {
-  border: 1px dashed red;
-}
-
-span {
-  border: 1px dashed green;
-}
-
-section {
-  border: 5px dashed yellow;
-} */
-
 /*--------------------------------
   全体
 ---------------------------------*/
@@ -81,7 +49,6 @@ header {
 .head__req--btn {
   width: 170px;
 }
-
 /*--------------------------------
 MainView
 ---------------------------------*/
@@ -185,8 +152,6 @@ About
   position: relative;
   margin-top: 22px;
 }
-/* .about__train-img {
-} */
 .about__train-box {
   position: relative;
   margin-top: -22px;
@@ -514,6 +479,7 @@ FAQ
 .faq {
   padding-top: 8%;
   padding-left: 8%;
+  padding-right: 8%;
   margin-top: 2%;
 }
 .faq__title {
@@ -526,4 +492,68 @@ FAQ
   font-size: 20px;
   font-weight: bold;
   letter-spacing: 0.125em;
+}
+.faqlist__item {
+  border-bottom: 1px solid #ccc;
+}
+.faqlist dt {
+  display: flex;
+  margin-top: 9.5%;
+  margin-left: -1.7%;
+  cursor: pointer;
+}
+.faqlist dt::after {
+  display: block;
+  margin-top: 3%;
+  content: "expand_more";
+  font-family: "Material Icons Round";
+  font-size: 39px;
+  font-weight: 200;
+  color: var(--main-color);
+  transform: translateY(-50%);
+}
+.faqlist dt.active::after {
+  content: "expand_less";
+}
+.faq__q {
+  flex: 0 0 10%;
+  font-size: 38px;
+  font-weight: bold;
+  color: var(--main-color);
+  text-align: center;
+}
+.faq__q--content {
+  flex: 1;
+  font-size: 26px;
+  font-weight: 400;
+  margin-top: 1%;
+  margin-left: 3%;
+  letter-spacing: -0.08em;
+}
+.faqlist dd {
+  display: flex;
+  margin-top: 2.5%;
+  margin-left: -1.5%;
+}
+.faqlist__display-flex {
+  display: flex;
+}
+.faq__a {
+  flex: 0 0 10%;
+  font-size: 38px;
+  font-weight: bold;
+  color: var(--main-color);
+  text-align: center;
+}
+.faq__a--content {
+  flex: 1;
+  font-size: 23px;
+  font-weight: 400;
+  margin-top: 1%;
+  margin-left: 3%;
+  letter-spacing: -0.02em;
+  line-height: 165%;
+}
+.faq__emptyarea {
+  height: 35px;
 }
