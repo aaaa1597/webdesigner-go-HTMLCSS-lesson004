@@ -581,3 +581,15 @@ CTA
   color: var(--main-color);
   background-color: #fff;
 }
+/*--------------------------------
+footer
+---------------------------------*/
+.footer {
+  display: grid;
+  place-items: center;
+  padding: 50px 20px;
+  background-color: #141414;
+}
+.footer__log--img {
+  width: 180px;
+}
