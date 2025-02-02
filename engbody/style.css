@@ -557,3 +557,27 @@ FAQ
 .faq__emptyarea {
   height: 35px;
 }
+/*--------------------------------
+CTA
+---------------------------------*/
+.cta__lastmessege {
+  text-align: center;
+  padding: 30px 20px;
+  background-color: var(--main-color);
+}
+.cta__title {
+  font-size: 43px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 3%;
+}
+.cta__lastmessege-btn {
+  display: block;
+  margin: 0 auto;
+  font-size: 20px;
+  padding: 35px 0px;
+  width: 85%;
+  height: 80px;
+  color: var(--main-color);
+  background-color: #fff;
+}
