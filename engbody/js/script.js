@@ -1,6 +1,6 @@
 $(function () {
 
-  /* スクロールに応じてヘッダーにactiveクラスを付与 */
+  /* top200でヘッダを白背景+登録ボタン表示 */
 	$(window).scroll(function () {
 		if ($(this).scrollTop() > 200) {
 			$('.header').addClass('header--active');
@@ -9,6 +9,21 @@ $(function () {
 		}
   });
   
+  /* スクロールエフェクト */
+  function fadeUpEffect() {
+		$('.fadeUpEffect').each(function () {
+			var elemPos = $(this).offset().top + 200;
+			var scroll = $(window).scrollTop();
+			var windowHeight = $(window).height();
+			if (scroll >= elemPos - windowHeight) {
+				$(this).addClass('fadeUp');
+			}
+		});
+  }
+  $(window).scroll(function () {
+		fadeUpEffect();
+  });
+
   /* トレーナータブ押下 */
   var tabs = $('.trainer__tab');
   $('.trainer__tab').on('click', function() {

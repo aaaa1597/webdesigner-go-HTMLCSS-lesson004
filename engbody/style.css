@@ -33,6 +33,29 @@ img {
   background-color: var(--main-color);
 }
 /*--------------------------------
+ スクロールエフェクト
+---------------------------------*/
+.fadeUpEffect {
+  opacity: 0;
+}
+
+.fadeUp {
+  opacity: 0;
+  animation-name: kffadeUp;
+  animation-duration: 0.8s;
+  animation-fill-mode: forwards;
+}
+@keyframes kffadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/*--------------------------------
 ヘッダー
 ---------------------------------*/
 header {
@@ -203,7 +226,7 @@ About
 }
 .about__food-box {
   position: relative;
-  margin-top: -20px;
+  margin-top: -90px;
   margin-left: 33px;
   margin-right: 33px;
   border-radius: 12px;
@@ -212,6 +235,7 @@ About
 .about__food-title {
   margin-top: 12%;
   margin-left: 9%;
+  padding-top: 12%;
   font-size: 30px;
   color: #00b21b;
   letter-spacing: -0.03em;
