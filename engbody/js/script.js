@@ -1,5 +1,14 @@
 $(function () {
 
+  /* スクロールに応じてヘッダーにactiveクラスを付与 */
+	$(window).scroll(function () {
+		if ($(this).scrollTop() > 200) {
+			$('.header').addClass('header--active');
+		} else {
+			$('.header').removeClass('header--active');
+		}
+  });
+  
   /* トレーナータブ押下 */
   var tabs = $('.trainer__tab');
   $('.trainer__tab').on('click', function() {

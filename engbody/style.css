@@ -49,6 +49,17 @@ header {
 .head__req--btn {
   width: 170px;
 }
+.header__btn {
+  display: none;
+}
+.header--active {
+  background-color: #fff;
+  box-shadow: 0 3px 6px rgb(0 0 0 / 5%);
+}
+.header--active .header__btn {
+  display: block;
+}
+
 /*--------------------------------
 MainView
 ---------------------------------*/
