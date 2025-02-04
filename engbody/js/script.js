@@ -9,6 +9,39 @@ $(function () {
 		}
   });
   
+  /* HPタイトルのアニメ処理 */
+  function BgFadeAnime() {
+    $('.bgLRextendTrigger').each(function() {
+      var elemPos = $(this).offset().top-50;
+      var scroll = $(window).scrollTop();
+      var windowHeight = $(window).height();
+      if (scroll >= elemPos - windowHeight)
+        $(this).addClass('bgLRextend');
+      else
+        $(this).removeClass('bgLRextend');
+    });
+
+    $('.bgappearTrigger').each(function() {
+      var elemPos = $(this).offset().top-50;
+      var scroll = $(window).scrollTop();
+      var windowHeight = $(window).height();
+      if (scroll >= elemPos - windowHeight)
+        $(this).addClass('bgappear');
+      else
+        $(this).removeClass('bgappear');
+    });
+  }
+
+    /* タイトルAnim(スクロール) */
+  $(window).scroll(function (){
+    BgFadeAnime();
+  });
+
+  /* タイトルAnim(load) */
+  $(window).on('load', function(){
+    BgFadeAnime();
+  });
+
   /* スクロールエフェクト */
   function fadeUpEffect() {
 		$('.fadeUpEffect').each(function () {
