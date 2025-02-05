@@ -5,37 +5,6 @@
 }
 
 /*--------------------------------
- デバッグ用
----------------------------------*/
-body {
-  border: 1px solid orange;
-}
-
-header {
-  border: 1px solid greenyellow;
-}
-
-main {
-  border: 1px solid magenta;
-}
-
-footer {
-  border: 1px solid blue;
-}
-
-div {
-  border: 1px dashed red;
-}
-
-span {
-  border: 1px dashed green;
-}
-
-section {
-  border: 5px dashed yellow;
-}
-
-/*--------------------------------
  全体
 ---------------------------------*/
 body {
