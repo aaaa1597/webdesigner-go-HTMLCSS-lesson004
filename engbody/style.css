@@ -12,6 +12,7 @@ body {
   font-size: 16px;
   color: #111;
   font-feature-settings: "palt";
+  max-width: 1600px;
 }
 
 img {
@@ -70,7 +71,8 @@ header {
   width: 155px;
 }
 .head__req--btn {
-  width: 170px;
+  display: block;
+  width: 220px;
 }
 .header__btn {
   display: none;
@@ -733,4 +735,22 @@ footer
 }
 .page-top__link:hover {
   opacity: 0.8;
+}
+
+/*media Queries 600px以上 タブレット用
+----------------------------------------------------*/
+@media screen and (min-width: 600px) {
+  .head__req--btn {
+    width: 250px;
+  }
+
+}
+
+/*media Queries 1025px以上
+----------------------------------------------------*/
+@media screen and (min-width: 1025px) {
+  body {
+    font-size: 16px;
+  }
+
 }
