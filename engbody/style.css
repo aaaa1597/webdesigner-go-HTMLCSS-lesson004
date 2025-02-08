@@ -12,7 +12,7 @@ body {
   font-size: 16px;
   color: #111;
   font-feature-settings: "palt";
-  max-width: 1600px;
+  max-width: 1440px;
 }
 
 img {
@@ -62,10 +62,12 @@ img {
 header {
   display: flex;
   justify-content: space-between;
+  align-items:center;
   position: fixed;
   z-index: 100;
-  padding: 40px 20px 20px 32px;
+  padding: 0 5vw;
   width: 100%;
+  height: 100px;
 }
 .head__logo-img {
   width: 155px;
@@ -76,6 +78,8 @@ header {
 }
 .header__btn {
   display: none;
+  /* margin-top: 25%; */
+  /* margin-bottom: 25%; */
 }
 .header--active {
   background-color: #fff;
@@ -737,20 +741,28 @@ footer
   opacity: 0.8;
 }
 
-/*media Queries 600px以上 タブレット用
+/* media Queries 600px以上 タブレット用
 ----------------------------------------------------*/
 @media screen and (min-width: 600px) {
   .head__req--btn {
     width: 250px;
   }
-
+  /*--- MainView ---*/
+  .mv {
+    position: relative;
+    height: 715px;
+  }
 }
 
-/*media Queries 1025px以上
+/* media Queries 1025px以上
 ----------------------------------------------------*/
 @media screen and (min-width: 1025px) {
   body {
     font-size: 16px;
   }
-
+  /*--- MainView ---*/
+  .mv {
+    position: relative;
+    height: 715px;
+  }
 }
