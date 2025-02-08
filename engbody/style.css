@@ -65,12 +65,12 @@ header {
   align-items:center;
   position: fixed;
   z-index: 100;
-  padding: 0 5vw;
+  padding: 0 35px;
   width: 100%;
-  height: 100px;
+  height: 80px;
 }
 .head__logo-img {
-  width: 155px;
+  width: 180px;
 }
 .head__req--btn {
   display: block;
@@ -78,8 +78,6 @@ header {
 }
 .header__btn {
   display: none;
-  /* margin-top: 25%; */
-  /* margin-bottom: 25%; */
 }
 .header--active {
   background-color: #fff;
@@ -744,9 +742,6 @@ footer
 /* media Queries 600px以上 タブレット用
 ----------------------------------------------------*/
 @media screen and (min-width: 600px) {
-  .head__req--btn {
-    width: 250px;
-  }
   /*--- MainView ---*/
   .mv {
     position: relative;
@@ -757,9 +752,6 @@ footer
 /* media Queries 1025px以上
 ----------------------------------------------------*/
 @media screen and (min-width: 1025px) {
-  body {
-    font-size: 16px;
-  }
   /*--- MainView ---*/
   .mv {
     position: relative;
