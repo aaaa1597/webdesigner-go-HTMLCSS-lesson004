@@ -247,12 +247,12 @@ Intro
   margin-left: 17px;
 }
 .intro__subtitle {
-  margin-top: 3px;
-  margin-left: 5px;
-  font-size: 25px;
+  margin-top: clamp(3px, 0.75vw + 0.18px,11px);
+  margin-left: calc(-8px - clamp(0px, 0.19vw + -0.7px,2px));
+  font-size: clamp(16px, 1.31vw + 11.07px,30px);
   font-weight: bold;
   text-align: center;
-  letter-spacing: 0.12em;
+  letter-spacing: clamp(1.6px, 0.216vw + 0.79px,3.9px);
 }
 .intro__subtitle span {
   color: var(--main-color);
