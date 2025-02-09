@@ -217,14 +217,14 @@ MainView
 }
 .mv__req{
   display:block;
-  width: 350px;
-  height: 83px;
+  width: clamp(218px, 12.58vw + 170.82px,352px);
+  height: clamp(54px, 2.25vw + 45.55px,78px);
   position: relative;
-  top: 38.5%;
-  left: 5.5%;
-  font-size: min(3.2vw, 19px);
-  padding-top: 5.5%;
-  letter-spacing: 0.08em;
+  top: clamp(167px, 7.98vw + 137.07px,252px);
+  left: clamp(21px, 13.8vw + -30.76px,168px);
+  font-size: clamp(12px, 0.66vw + 9.54px,19px);
+  padding-top: clamp(22px, 1.22vw + 17.42px,35px);
+  letter-spacing: clamp(1px, 0.01vw + 0.96px,1.1px);
 }
 /*--------------------------------
 Intro
