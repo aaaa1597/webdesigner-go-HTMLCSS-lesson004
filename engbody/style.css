@@ -177,16 +177,16 @@ MainView
 .mv__eyecatch-img {
   position: absolute;
   top: 0;
-  left: 29%;
-  width: clamp(266.8px, 70.16vw + 3.7px, 1014px);
-  height: 91.5%;
+  left: clamp(109px, 24.04vw + 18.86px,365px);
+  width: clamp(267px, 72.02vw - 3.07px,1034px);
+  height: clamp(408px, 23vw + 321.73px,653px);
   z-index: -1;
   border-bottom-left-radius: 80px;
   background-image: url(img/bg_mv.webp);
   background-repeat: no-repeat;
-  background-position-x: clamp(-191px, 13.33vw - 241px, -49px);
-  background-position-y: center;
-  background-size: cover; /*%指定*/
+  background-position-x: clamp(-191px, 17.93vw + -258.25px,0px);
+  background-position-y: 0px;
+  background-size: clamp(637px, 35.77vw + 502.85px,1018px);
 }
 .mv__title {
   position: relative;
