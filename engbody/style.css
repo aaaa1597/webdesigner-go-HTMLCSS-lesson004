@@ -75,6 +75,9 @@ header {
   max-width: 1440px;
   height: clamp(54px, 2.54vw + 44.49px, 81px);
 }
+.header_logo {
+  margin-left: clamp(0px, 2.07vw + -7.75px,22px);
+}
 .head__logo-img {
   width: clamp(96.7px, 7.82vw + 67.37px, 180px);
 }
