@@ -38,7 +38,7 @@ img {
   background-color: var(--main-color);
 }
 /*--------------------------------
- スクロールエフェクト
+スクロールエフェクト
 ---------------------------------*/
 .fadeUpEffect {
   opacity: 0;
@@ -172,7 +172,7 @@ MainView
 ---------------------------------*/
 .mv {
   position: relative;
-  height: clamp(625px, 12.77vw + 561.17px, 745px);
+  height: clamp(448px, 27.89vw + 343.42px, 745px);
 }
 .mv__eyecatch-img {
   position: absolute;
