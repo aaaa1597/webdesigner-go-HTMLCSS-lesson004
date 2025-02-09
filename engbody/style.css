@@ -66,8 +66,8 @@ header {
   align-items:center;
   position: fixed;
   z-index: 100;
-  padding: 0 35px;
-  width: 100%;
+  padding: 0 clamp(25.94px, 0.0085vw + 22.24px, 35px);
+  width: 100vw;
   height: 80px;
 }
 .head__logo-img {
