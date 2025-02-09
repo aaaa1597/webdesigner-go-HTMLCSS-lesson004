@@ -208,12 +208,12 @@ MainView
 }
 .mv__subcontext {
   position: relative;
-  top: 35.5%;
-  left: 32px;
-  font-size: min(3.5vw, 32px);
+  top: clamp(154px, 7.14vw + 127.24px,230px);
+  left: clamp(22px, 13.43vw + -28.35px,165px);
+  font-size: clamp(13.1px, 1.31vw + 8.21px,27px);
   font-weight: bold;
   line-height: 1;
-  letter-spacing: -0.03em;
+  letter-spacing: clamp(-0.18px, 0.02vw + -0.24px,-0.005px);
 }
 .mv__req{
   display:block;
