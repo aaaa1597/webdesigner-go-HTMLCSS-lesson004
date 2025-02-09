@@ -184,7 +184,7 @@ MainView
   border-bottom-left-radius: 80px;
   background-image: url(img/bg_mv.webp);
   background-repeat: no-repeat;
-  background-position-x: clamp(-270px, 23.94vw + -389.68px, -45px);;
+  background-position-x: clamp(-191px, 13.33vw - 241px, -49px);;
   background-position-y: center;
   background-size: cover; /*%指定*/
 }
