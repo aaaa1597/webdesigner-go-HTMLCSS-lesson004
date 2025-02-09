@@ -38,7 +38,7 @@ img {
   background-color: var(--main-color);
 }
 /*--------------------------------
-スクロールエフェクト
+ページアップエフェクト
 ---------------------------------*/
 .fadeUpEffect {
   opacity: 0;
@@ -190,9 +190,9 @@ MainView
 }
 .mv__title {
   position: relative;
-  top: 242px;
-  left: 34px;
-  font-size: min(12vw, 65px);
+  top: clamp(150px, 6.1vw + 127.11px,215px);
+  left: clamp(22px, 13.62vw + -29.06px,167px);
+  font-size: clamp(41px, 4.13vw + 25.51px,85px);
   font-style: italic;
   line-height: 1;
   margin-bottom: 10px;
