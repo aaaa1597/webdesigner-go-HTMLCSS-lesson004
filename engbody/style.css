@@ -230,10 +230,11 @@ MainView
 Intro
 ---------------------------------*/
 .intro {
-  margin-top: -92px;
+  margin-top: calc(-58px - clamp(0px, 4.98vw + -18.66px,53px));
+  margin-left: 12px;
 }
 .intro__title {
-  font-size: 88px;
+  font-size: clamp(55px, 4.6vw + 37.75px,104px);
   font-style: italic;
   font-weight: 700;
   line-height: 1;
@@ -243,7 +244,7 @@ Intro
   letter-spacing: 0.01em;
 }
 .intro__title span {
-  margin-left: 31px;
+  margin-left: 17px;
 }
 .intro__subtitle {
   margin-top: 3px;
@@ -771,6 +772,9 @@ footer
   header {
     background-color: magenta;
     opacity: 0.9;
+  }
+  .intro__title--br {
+    display: none;
   }
 }
 
