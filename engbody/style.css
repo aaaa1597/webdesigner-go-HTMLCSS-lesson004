@@ -71,7 +71,7 @@ header {
   height: 80px;
 }
 .head__logo-img {
-  width: clamp(6.044rem, 4.211rem + 7.82vw, 11.25rem);
+  width: clamp(96.7px, 96.7px + 7.82vw, 180px);
 }
 .head__req--btn {
   display: block;
