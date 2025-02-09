@@ -12,25 +12,28 @@ body {
   font-size: 16px;
   color: #111;
   font-feature-settings: "palt";
+}
+.top__container {
+  margin: 0 auto;
+  width: 96vw;
+  outline: dashed 10px yellowgreen;
   min-width: 375px;
   max-width: 1440px;
 }
-
 img {
   max-width: 100%;
   height: auto;
   vertical-align: bottom;
 }
-
 .btn {
   width: 100%;
-  font-size: 13px;
+  font-size: clamp(10px, 0.28vw + 8.94px, 13px);
   line-height: 1;
   font-weight: bold;
   letter-spacing: 0.05em;
   color: #fff;
   text-align: center;
-  padding: 20px 20px;
+  padding: clamp(10px, 0.94vw + 6.48px, 20px) clamp(10px, 0.94vw + 6.48px, 20px);
   border-radius: 50px;
   background-color: var(--main-color);
 }
@@ -66,12 +69,14 @@ header {
   align-items:center;
   position: fixed;
   z-index: 100;
-  padding: 0 clamp(25.94px, 0.0085vw + 22.24px, 35px);
-  width: 100vw;
-  height: 80px;
+  padding: calc(4px - clamp(0px, 0.38vw - 1.41px, 4px)) calc(20px - clamp(0px, 1.03vw - 3.87px, 11px));
+  width: 96vw;
+  min-width: 375px;
+  max-width: 1440px;
+  height: clamp(54px, 2.54vw + 44.49px, 81px);
 }
 .head__logo-img {
-  width: clamp(96.7px, 96.7px + 7.82vw, 180px);
+  width: clamp(96.7px, 7.82vw + 67.37px, 180px);
 }
 .head__req--btn {
   display: block;
@@ -167,7 +172,7 @@ MainView
 ---------------------------------*/
 .mv {
   position: relative;
-  height: 715px;
+  height: clamp(625px, 12.77vw + 561.17px, 745px);
 }
 .mv__eyecatch-img {
   position: absolute;
@@ -179,7 +184,7 @@ MainView
   border-bottom-left-radius: 80px;
   background-image: url(img/bg_mv.webp);
   background-repeat: no-repeat;
-  background-position-x: -306px;
+  background-position-x: clamp(-270px, 23.94vw + -389.68px, -45px);;
   background-position-y: center;
   background-size: cover; /*%指定*/
 }
@@ -740,17 +745,23 @@ footer
   opacity: 0.8;
 }
 
+/* media Queries 375px以上 タブレット用
+----------------------------------------------------*/
+@media screen and (min-width: 375px) {
+  header {
+    background-color: red;
+    opacity: 0.9999;
+  }
+}
 /* media Queries 600px以上 タブレット用
 ----------------------------------------------------*/
 @media screen and (min-width: 600px) {
   header {
-    background-color: magenta;
-    opacity: 0.3;
+    background-color: cyan;
+    opacity: 0.9;
   }
-  /*--- MainView ---*/
-  .mv {
-    position: relative;
-    height: 715px;
+  .mv__eyecatch-img {
+    width: 87.2vw;
   }
 }
 
@@ -758,12 +769,22 @@ footer
 ----------------------------------------------------*/
 @media screen and (min-width: 1025px) {
   header {
-    background-color: cyan;
-    opacity: 0.3;
+    background-color: magenta;
+    opacity: 0.9;
   }
-  /*--- MainView ---*/
-  .mv {
-    position: relative;
-    height: 715px;
+  .mv__eyecatch-img {
+    width: 74.4vw;
+  }
+}
+
+/* media Queries 1440px以上
+----------------------------------------------------*/
+@media screen and (min-width: 1440px) {
+  header {
+    background-color: yellow;
+    opacity: 0.9;
+  }
+  .mv__eyecatch-img {
+    width: 61.6vw;
   }
 }
