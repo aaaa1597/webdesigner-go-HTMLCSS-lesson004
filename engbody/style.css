@@ -287,17 +287,19 @@ About
   min-width: 450px;
 }
 .about__train-title {
-  margin-top: -5px;
-  font-size: 27px;
+  margin-top: clamp(-30px, 1.88vw + -37.04px,-10px);
+  margin-left: clamp(-21px, 2.72vw + -31.21px,8px);
+  font-size: clamp(17.5px, 0.39vw + 16.02px,21.7px);
   color: var(--main-color);
   letter-spacing: 0.03em;
 }
 .about__train-h2 {
-  margin-top: 39px;
-  font-size: 32px;
+  margin-top: 24px;
+  margin-left: clamp(-19px, 2.44vw + -28.15px,7px);
+  font-size: clamp(17.5px, 0.36vw + 16.16px,21.3px);
   font-weight: bold;
   letter-spacing: 0.1em;
-  line-height: 1.6;
+  line-height: 1.65;
 }
 .about__train-p {
   margin-left: -2px;
