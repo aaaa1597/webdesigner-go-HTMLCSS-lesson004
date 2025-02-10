@@ -856,6 +856,35 @@ footer
     top: 46.5%;
     left: min(1070px,78vw);
   }
+  .price_div {
+    background-color: transparent;
+  }
+  .price__wavedeco {
+    display: none;
+  }
+  .price_list {
+    display: flex;
+    justify-content: space-around;
+    padding: 4vw 10.5vw 0;
+  }
+  .pricebox {
+    margin: 0;
+    width: auto;
+  }
+  .pricebox__recog {
+    top: -1.3vw;
+    width: 19vw;
+  }
+  .pricebox__title {
+    margin: 0 auto;
+    margin-top: 0.3vw;
+    letter-spacing: -0.1em;
+  }
+  .pricebox__price {
+    margin: 0 auto;
+    margin-top: 0.3vw;
+    letter-spacing: -0.005em;
+  }
 }
 
 /* media Queries 1440px以上
