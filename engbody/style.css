@@ -296,7 +296,7 @@ About
 .about__train-h2 {
   margin-top: 24px;
   margin-left: clamp(-19px, 2.44vw + -28.15px,7px);
-  font-size: clamp(17.5px, 0.36vw + 16.16px,21.3px);
+  font-size: clamp(20px, 0.75vw + 17.18px,28px);
   font-weight: bold;
   letter-spacing: 0.1em;
   line-height: 1.65;
@@ -789,8 +789,8 @@ footer
     width: 63.3vw;
   }
   .about__train-box {
-    margin-top: -30.5vw;
-    margin-left: clamp(100px, 57.7vw,905px);
+    margin-top: max(-30.5vw,-478px);
+    margin-left: min(57.7vw,905px);
   }
 }
 
