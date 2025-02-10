@@ -357,7 +357,7 @@ About
 .about__reg-btn {
   display: block;
   margin: 0 auto;
-  margin-top: calc(387px - clamp(0px, 30.42vw + -114.08px,324px));
+  margin-top: 387px;
   width: clamp(300px, 4.41vw + 283.45px,347px);
 }
 .about__reg-btndeco {
@@ -810,6 +810,9 @@ footer
   .about__food-box {
     margin-top: min(9.5vw,138px);
     margin-right: min(57.6vw,750px);
+  }
+  .about__reg-btn {
+    margin-top: 61px;
   }
   .trainer__tab--personlist {
     display: flex;
