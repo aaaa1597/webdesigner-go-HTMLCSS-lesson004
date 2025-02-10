@@ -372,33 +372,37 @@ About
 Trainer
 ---------------------------------*/
 .trainer {
-  margin-top: 12%;
+  margin-top: 42px;
 }
 .present__trainersandstaffs {
   background-color: var(--main-color);
+  margin-top: -1px;
 }
 .present__trainersandstaffs--title {
-  padding-top: 48px;
-  padding-left: 48px;
+  padding-top: calc(33px - clamp(0px, 3.1vw + -11.62px,33px));
+  padding-left: clamp(30px, 11.74vw + -14.01px,155px);
   color: #fff;
-  font-size: 66px;
+  font-size: clamp(41.1px, 2.15vw + 33.04px,64px);
   letter-spacing: -0.015em;
 }
 .present__trainersandstaffs--titlekana {
-  padding-top: 10px;
-  padding-left: 48px;
+  padding-top: calc(7px - clamp(0px, 0.66vw + -2.46px,7px));
+  padding-left: clamp(29.5px, 12.16vw + -16.1px,159px);
   color: #fff;
-  font-size: 24px;
-  letter-spacing: -0.08em;
+  font-size: clamp(15px, 0.47vw + 13.24px,20px);
+  letter-spacing: -1px;
 }
 .trainer__tabs {
-  padding: 8% 8% 5% 8%;
+  padding-top: calc(30px - clamp(0px, 0.47vw + -1.76px,5px));
+  padding-right: clamp(30px, 11.17vw + -11.9px,149px);
+  padding-bottom: calc(20px - clamp(0px, 0.94vw + -3.52px,10px));
+  padding-left: clamp(32px, 10.89vw + -8.85px,148px);
   display: grid;
   place-content: center;
   place-items: center;
   color: #fff;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 16px;
   letter-spacing: 0.03em;
   cursor: pointer;
   grid-template-columns: repeat(2, 1fr);
@@ -406,7 +410,7 @@ Trainer
 .trainer__tab {
   text-align:center;
   width: 100%;
-  height: 50px;
+  height: 31px;
 }
 .tab--active {
   border-bottom: #fff solid 4px;
@@ -420,7 +424,7 @@ Trainer
 }
 .trainer__tab--personlist {
   display: grid;
-  row-gap: 30px;
+  row-gap: 15px;
 }
 .trainer__tab--personbox {
   overflow: hidden;
@@ -432,13 +436,18 @@ Trainer
   margin: 0 auto;
 }
 .trainer__tab--personbox p {
+  display: inline-block;
+  height: 100px;
+  width: 100%;
   background-color: #fff;
-  padding: 36px 30px 36px;
-  font-size: 20px;
-  line-height: 1.72;
+  padding: 26px 20px 20px;
+  font-size: 12px;
+  line-height: 1.8;
 }
 .trainer__tab--emptyarea {
-  height: 110px;
+  height: calc(70px - clamp(0px, 2.82vw + -10.56px,30px));
+  margin-top: -1px;
+  margin-bottom: -1px;
   background-color: var(--main-color);
 }
 /*--------------------------------
@@ -801,6 +810,14 @@ footer
   .about__food-box {
     margin-top: 139px;
     margin-right: 57.6vw;
+  }
+  .trainer__tab--personlist {
+    display: flex;
+    column-gap: 30px;
+    padding: 0 130px 0;
+  }
+  .trainer__tab--personbox {
+    margin: 0;
   }
 }
 
