@@ -454,44 +454,43 @@ Trainer
 Studio
 ---------------------------------*/
 .studio {
-  margin-top: 10.5%;
+  margin-top: 9.5%;
   padding: 0 8%;
 }
 .present__studio--title {
-  font-size: 66px;
+  font-size: 41px;
   letter-spacing: -0.015em;
 }
 .present__studio--titlekana {
-  padding-top: 10px;
-  font-size: 23px;
+  padding-top: 5px;
+  font-size: 14px;
   font-weight: bold;
   color: var(--main-color);
   letter-spacing: -0.04em;
 }
-
 .swiper-wrap {
   position: relative;
-  margin-top: 9%;
+  margin: 9% 0 0;
 }
 .swiper-horizontal > .swiper-pagination-bullets,
 .swiper-pagination-bullets.swiper-pagination-horizontal,
 .swiper-pagination-custom,
 .swiper-pagination-fraction {
-  bottom: -40px;
+  bottom: -28px;
 }
 .swiper-button-next,
 .swiper-button-prev {
-  width: 60px;
-  height: 60px;
+  width: 38px;
+  height: 38px;
   border-radius: 50%;
   background-color: #fff;
 }
 .swiper-button-prev {
-  top: 46.5%;
+  top: 49.5%;
   left: -6%;
 }
 .swiper-button-next {
-  top: 46.5%;
+  top: 49.5%;
   left: 94%;
 }
 .swiper-button-prev:after,
@@ -821,6 +820,34 @@ footer
   }
   .trainer__tab--personbox {
     margin: 0;
+  }
+  .studio {
+    margin-top: 3.8%;
+  }
+  .present__studio--title {
+    font-size: 63px;
+    margin-left: 51px;
+  }
+  .present__studio--titlekana {
+    padding-top: 6px;
+    padding-left: 53px;
+    font-size: 19px;
+  }
+  .swiper-wrap {
+    margin: 2% 0 0;
+  }
+    .swiper-button-next,
+  .swiper-button-prev {
+    width: 75px;
+    height: 75px;
+  }
+  .swiper-button-prev {
+    top: 46.5%;
+    margin-left: 3%;
+  }
+  .swiper-button-next {
+    top: 46.5%;
+    margin-left: -2%;
   }
 }
 
