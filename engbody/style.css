@@ -15,7 +15,7 @@ body {
 }
 .top__container {
   margin: 0 auto;
-  width: 100vw;
+  width: 96vw;
   outline: dashed 10px yellowgreen;
   min-width: 375px;
   max-width: 1440px;
@@ -70,7 +70,7 @@ header {
   position: fixed;
   z-index: 100;
   padding: calc(4px - clamp(0px, 0.38vw - 1.41px, 4px)) calc(20px - clamp(0px, 1.03vw - 3.87px, 11px));
-  width: 100vw;
+  width: 96vw;
   min-width: 375px;
   max-width: 1440px;
   height: clamp(54px, 2.54vw + 44.49px, 81px);
@@ -272,7 +272,7 @@ About
   margin-top: clamp(9px, 0.85vw + 5.83px,18px);
 }
 .about__train-img {
-  width: 100vw;
+  width: 96vw;
   min-width: 375px;
   max-width: 993px;
 }
@@ -280,9 +280,9 @@ About
   position: relative;
   margin-top: -13px;
   margin-left: 20px;
-  margin-right: clamp(-136px, 15.59vw + -194.45px,30px);
+  margin-right: 20px;
   padding-top: 70px;
-  padding-right: calc(71px - clamp(0px, 3.85vw + -14.44px,41px));
+  padding-right: clamp(0px, 3.85vw + -14.44px,41px);
   padding-bottom: 30px;
   padding-left: 50px;
   border-radius: 12px;
@@ -306,25 +306,25 @@ About
 .about__train-p {
   margin-left: clamp(-19px, 2.44vw + -28.15px,7px);
   padding-top: 11px;
-  padding-right: calc(109px - clamp(0px, 8.36vw + -31.34px,89px));
+  padding-right: calc(24px - clamp(0px, 0.38vw + -1.41px,4px));
   font-size: 14px;
   line-height: clamp(24.4px, 0.19vw + 23.7px,26.4px);
   letter-spacing: -0.05em;
 }
 .about__food {
   position: relative;
-  margin-top: clamp(27px, 7.7vw + -1.87px,109px);
+  margin-top: clamp(27px, 7.89vw + -2.58px,111px);
 }
 .about__food-img {
-  width: 100vw;
+  width: 96vw;
   min-width: 375px;
-  max-width: 993px;
+  max-width: 912px;
 }
 .about__food-box {
   position: absolute;
-  margin-top: -90px;
-  margin-left: 33px;
-  margin-right: 33px;
+  margin-top: clamp(-11px, 14.08vw + -63.82px,139px);
+  margin-left: 20px;
+  margin-right: 20px;
   border-radius: 12px;
   background-color: #fff;
 }
