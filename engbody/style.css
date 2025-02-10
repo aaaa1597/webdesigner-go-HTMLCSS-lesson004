@@ -487,11 +487,11 @@ Studio
 }
 .swiper-button-prev {
   top: 49.5%;
-  left: -6%;
+  left: max(-20px,-5vw);
 }
 .swiper-button-next {
   top: 49.5%;
-  left: 94%;
+  left: max(300px,79vw);
 }
 .swiper-button-prev:after,
 .swiper-button-next:after {
@@ -843,11 +843,11 @@ footer
   }
   .swiper-button-prev {
     top: 46.5%;
-    margin-left: 3%;
+    left: max(-40px,-5vw);
   }
   .swiper-button-next {
     top: 46.5%;
-    margin-left: -2%;
+    left: min(1070px,78vw);
   }
 }
 
