@@ -274,7 +274,7 @@ About
 .about__train-img {
   width: 100vw;
   min-width: 375px;
-  max-width: 1440px;
+  max-width: 993px;
 }
 .about__train-box {
   position: relative;
@@ -284,6 +284,7 @@ About
   padding: 70px 30px 30px 50px;
   border-radius: 12px;
   background-color: #fff;
+  min-width: 450px;
 }
 .about__train-title {
   margin-top: -5px;
@@ -783,7 +784,11 @@ footer
     text-align: center;
   }
   .about__train-img {
-    width: 80vw;
+    width: 63.3vw;
+  }
+  .about__train-box {
+    margin-top: -30.5vw;
+    margin-left: clamp(100px, 57.7vw,905px);
   }
 }
 
