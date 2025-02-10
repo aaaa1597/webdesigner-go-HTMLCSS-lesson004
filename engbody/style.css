@@ -302,14 +302,13 @@ About
   line-height: 1.65;
 }
 .about__train-p {
-  margin-left: -2px;
-  padding-top: 23px;
-  padding-right: 20px;
-  font-size: 21px;
-  line-height: 1.82;
+  margin-left: clamp(-19px, 2.44vw + -28.15px,7px);
+  padding-top: 11px;
+  padding-right: calc(109px - clamp(0px, 8.36vw + -31.34px,89px));
+  font-size: 14px;
+  line-height: clamp(24.4px, 0.19vw + 23.7px,26.4px);
   letter-spacing: -0.05em;
 }
-
 .about__food {
   position: relative;
   margin-top: 65px;
@@ -791,6 +790,10 @@ footer
   .about__train-box {
     margin-top: max(-30.5vw,-478px);
     margin-left: min(57.7vw,905px);
+  }
+  .about__food-reverse {
+    display: flex;
+    justify-content: right;
   }
 }
 
