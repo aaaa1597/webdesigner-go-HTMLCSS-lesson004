@@ -16,7 +16,6 @@ body {
 .top__container {
   margin: 0 auto;
   width: 96vw;
-  outline: dashed 10px yellowgreen;
   min-width: 375px;
   max-width: 1440px;
 }
