@@ -777,7 +777,6 @@ footer
 ----------------------------------------------------*/
 @media screen and (min-width: 375px) {
   header {
-    background-color: red;
     opacity: 0.9999;
   }
 }
@@ -785,7 +784,6 @@ footer
 ----------------------------------------------------*/
 @media screen and (min-width: 600px) {
   header {
-    background-color: cyan;
     opacity: 0.9;
   }
 }
@@ -794,7 +792,6 @@ footer
 ----------------------------------------------------*/
 @media screen and (min-width: 1025px) {
   header {
-    background-color: magenta;
     opacity: 0.9;
   }
   .intro__title--br {
@@ -892,7 +889,6 @@ footer
 ----------------------------------------------------*/
 @media screen and (min-width: 1440px) {
   header {
-    background-color: yellow;
     opacity: 0.9;
   }
 }
