@@ -584,14 +584,12 @@ Price
   margin-top: -0.5%;
   font-size: 47px;
   letter-spacing: 0.015em;
-  padding-bottom: 20px;
 }
 .pricebox__price p::first-letter {
   font-size: 40px;
 }
 .pricebox__admfee {
   margin: 0 auto;
-  margin-top: -7%;
   font-size: 16.5px;
   font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans";
   letter-spacing: -0.03em;
